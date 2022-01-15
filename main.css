@@ -1,0 +1,47 @@
+/*============================
+
+Universal Styling
+
+============================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+}
+body {
+  background: #d3d3d3;
+}
+
+img {
+  margin: 1%;
+}
+
+/*===========================
+
+Responsive Web Coding - 768px by 1024px (Tablet)
+
+===========================*/
+
+@media screen and (min-width: 768px) {
+  img {
+    height: 23%;
+    width: 28%;
+  }
+}
+/*===========================
+
+Responsive Web Coding - 1366px by 768px (Laptop)
+
+===========================*/
+
+@media screen and (min-width: 1000px) {
+  img {
+    height: 30%;
+    width: 25%;
+  }
+.container {
+  padding-bottom: 2%;
+}
+}
